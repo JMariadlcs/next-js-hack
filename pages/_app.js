@@ -6,12 +6,12 @@ function MyApp({ Component, pageProps }) {
   return (
   
   <MoralisProvider initializeOnMount = {false}>
-    <Header>
+    <Header />
       <Component {...pageProps} />
-    </Header>
   </MoralisProvider>
   
   );
 }
 
 export default MyApp
+
