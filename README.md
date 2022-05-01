@@ -2,6 +2,8 @@
 
 This is a Next-js web3 workshop from Chainlink Hackathon Spring 2022 where Moralis is used to implement connectButton in an easy way.
 
+The workshop followed to complete this repo is [this one](https://www.youtube.com/watch?v=l4r0IXjAlpc).
+
 ## Dependencies and Set-Up
 It is possible to work with normal testnets (Rinkeby, Mumbai, etc).
 
