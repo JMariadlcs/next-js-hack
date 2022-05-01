@@ -26,7 +26,7 @@ yarn hardhat node
 yarn create next-app .
 ```
 
-- Start Next.js local server:
+- Start Next.js local server (in another terminal):
 ```bash
 yarn dev
 ```

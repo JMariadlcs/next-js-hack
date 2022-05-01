@@ -8,6 +8,11 @@ export default function Home() {
   const {runContractFunction}  = useWeb3Contract({
     abi: abi,
     contractAddress: "0x5FbDB2315678afecb367f032d93F642f64180aa3", // your contract address here
+
+    //If we want to make it CROSSCHAIN:
+    // if on chainX show contract Y
+    // if on chainY show contract Z
+    
     functionName: "store",
     params: {
       _favoriteNumber: 42,
